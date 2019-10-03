@@ -9,7 +9,7 @@ body {
 /* Float four columns side by side */
 .column {
     float:none ;
-    width: 25%;
+    width: 30%;
     padding: 10px 50px 20px;;
 }
 
@@ -42,12 +42,12 @@ body {
 /* Style the counter cards */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 20px 10px;
     text-align: center;
     display: block;
     background-color: #f1f1f1;
 }
-h5{
+h3{
     font-weight: bold;
     font-family: "Times New Roman";
     position: center;
@@ -55,7 +55,7 @@ h5{
 label{
     font-weight: bold;
     float: left;
-    margin-left: 10em;
+    margin-left: 5em;
     margin-right: 1em;
     display:block;
 }
