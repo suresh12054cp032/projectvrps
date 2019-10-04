@@ -1,0 +1,179 @@
+.form-horizontal .form-group {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        text-align: right;
+        margin-bottom: 0;
+        padding-top: 7px;
+    }
+}
+.form-horizontal .has-feedback .form-control-feedback {
+    right: 15px;
+}
+@media (min-width: 768px) {
+    .form-horizontal .form-group-lg .control-label {
+        padding-top: 14.333333px;
+    }
+}
+@media (min-width: 768px) {
+    .form-horizontal .form-group-sm .control-label {
+        padding-top: 6px;
+    }
+}
+
+
+
+
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+
+
+
+.form-horizontal .form-group:after,
+
+
+
+
+
+.text-center {
+    text-align: center !important;
+}
+
+
+
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-family: 'proxima-nova', sans-serif;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    border-radius: 2px !important;
+    box-shadow: none;
+    border-color: #d2d6de ;
+}
+
+.form-control::-moz-placeholder {
+    color: #B8B8B8;
+    opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+    color: #B8B8B8;
+}
+.form-control::-webkit-input-placeholder {
+    color: #B8B8B8;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    opacity: 1;
+}
+textarea.form-control {
+    height: auto;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #0031bc;
+    border-color: #2E5BEF;
+}
+.btn-primary .badge {
+    color: #647aab;
+    background-color: #ffffff;
+}
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+    height: 35px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+.btn-block + .btn-block {
+    margin-top: 5px;
+}
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+    width: 100%;
+}
+
+body
+{
+    background: #ffffff!important;
+    font-size: 14px;
+}
+
+.lower_footer
+{
+    background:#0031bc;
+    position:fixed;
+    bottom:1px;
+    width: 100%;
+    height: 40px;
+}
+form, footer, .footer {
+    background-color: #fff;
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin-bottom: 15px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.login_total_space_div
+{
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    left: 30%;
+    margin: 7% auto;
+}

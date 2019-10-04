@@ -1,0 +1,28 @@
+body
+{
+    background: #ffffff!important
+}
+.login_total_space_div
+{
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    left: 30%;
+    margin: 7% auto;
+}
+.lower_footer
+{
+    background:#3377ff;
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+    padding: 15px;
+     data-wow-duration:"0.5s" ;
+
+
+}
+.text-center wow fadeIn
+{
+
+
+}

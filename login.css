@@ -1,0 +1,123 @@
+
+element.style {
+    background: rgb(0, 49, 188);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+    visibility: visible;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-name: fadeIn;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.text-center {
+    text-align: center !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+form,
+footer,
+.footer {
+  background-color: #fff;
+  max-width: 350px;
+  padding: 19px 29px 29px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.login_total_space_div
+{
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    left: 30%;
+    margin: 7% auto;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 10px!important;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+
+  -webkit-border-top-left-radius: 0;
+          border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+          border-top-right-radius: 0;
+}
+.form-signin .forget-password {
+  text-align: center;
+  padding: 7px 0;
+}
+.form-signup {
+  display: none;
+}
+.form-signup .input-group {
+  margin-bottom: 10px!important;
+}
+.form-signup .fa {
+  width: 16px;
+}
+.form-forgot {
+  display: none;
+}
+.form-heading {
+  /* padding: 10px 0; */
+    margin: 20px 0;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer,
+.footer {
+  text-align: center;
+}
+
+form, footer, .footer {
+    background-color: #fff;
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
